@@ -1,5 +1,5 @@
 <script>
-  import { updateProfile } from "../..//utils/auth";
+  import { updateProfile } from "$lib/utils/auth";
 
   export let data;
   let user = data.user;

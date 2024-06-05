@@ -1,4 +1,4 @@
-import { checkUserStatus, fetchUserProfile } from "../../utils/auth";
+import { checkUserStatus, fetchUserProfile } from "$lib/utils/auth";
 import { redirect } from "@sveltejs/kit";
 
 export async function load() {

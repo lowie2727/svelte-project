@@ -1,7 +1,7 @@
 <script>
-  import Footer from "../../components/Footer.svelte";
+  import Footer from "../../components/portfolio/Footer.svelte";
   import "../../app.css";
-  import PortfolioHeader from "../../components/PortfolioHeader.svelte";
+  import PortfolioHeader from "../../components/portfolio/PortfolioHeader.svelte";
   let y;
 
   function goTop() {

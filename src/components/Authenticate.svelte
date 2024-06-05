@@ -1,7 +1,7 @@
 <script>
   import { goto } from "$app/navigation";
-  import { login } from "../utils/auth";
-  import { signUpNewUser } from "../utils/auth";
+  import { login } from "$lib/utils/auth";
+  import { signUpNewUser } from "$lib/utils/auth";
 
   let email = "";
   let password = "";

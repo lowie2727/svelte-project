@@ -1,7 +1,7 @@
 <script>
   import { onMount, onDestroy } from "svelte";
-  import { checkUserStatus } from "../utils/auth";
-  import { logout } from "../utils/auth";
+  import { checkUserStatus } from "$lib/utils/auth";
+  import { logout } from "$lib/utils/auth";
   import { goto } from "$app/navigation";
 
   let isLoggedIn = false;
